@@ -1,0 +1,229 @@
+
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url("../fonts/SourceSansProRegular.eot");
+    src: url("../fonts/SourceSansProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProRegular.woff") format("woff"),
+    url("../fonts/SourceSansProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SourceSansProLight"; */
+@font-face {
+    font-family: "SourceSansProLight";
+    src: url("../fonts/SourceSansProLight.eot");
+    src: url("../fonts/SourceSansProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProLight.woff") format("woff"),
+    url("../fonts/SourceSansProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SourceSansProBold"; */
+@font-face {
+    font-family: "SourceSansProBold";
+    src: url("../fonts/SourceSansProBold.eot");
+    src: url("../fonts/SourceSansProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProBold.woff") format("woff"),
+    url("../fonts/SourceSansProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+	background:#bac4cd;
+}
+/* Форма обратной связи в сплывающем окне */ 
+.caller{
+	display:block;
+	height:310px;
+	background:#ffffff;
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-155px;
+	border-radius:3px;
+	width:600px;
+		-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.caller input[type="text"], .caller input[type="password"]{
+	 font-family: "SourceSansProLight";
+	width:186px;
+	display:block;
+	padding:0 18px;
+	height:36px;
+	line-height:36px;
+	border:1px solid #d9d9d9;
+	border-radius:3px;
+	background:#fff;
+	color:#000;
+	
+}
+
+.operation img{
+	display:none;
+}
+
+.insiderhere{
+	font-family: "SourceSansProLight";
+		font-size:14px;
+		line-height:14px;
+		color:#b3afaf;
+}
+
+.formtext{
+	padding-bottom:30px;
+}
+
+.insiderhere{
+	width:465px;
+	margin:0 auto;
+}
+
+.formitem{
+	width:222px;
+	float:left;
+	padding-left:15px;
+}
+
+.formname{
+	padding-top:30px;
+	font-size:32px;
+	padding-bottom:20px;
+	line-height:32px;
+	color:#9ABD67;
+}
+
+.newsender{
+	cursor:pointer;
+	border-radius:3px;
+	padding:10px 20px;
+	background:#9ABD67 ;
+	color:#fff;
+	float:right;
+	font-size:24px;
+	line-height:24px;
+}
+
+.newsender i{
+	padding-right:15px;
+}
+.lastinrow{
+	padding-left:0;
+}
+.sender_wrap{
+	padding-top:20px;
+}
+.mailicon{
+	top:30px;
+	left:-53px;
+	height:112px;
+	width:112px;
+	background: rgba( 0, 0, 0, 0.5);
+	border-radius:100px;
+	position:absolute;
+	cursor:pointer;
+	}
+	.mailicon .mailinside{
+		width:98px;
+		height:98px;
+			border-radius:100px;
+		background:#9ABD67;
+		position:absolute;
+		top:7px;
+		left:7px;
+		text-align:center;
+	}
+	
+	.mailinside i{
+		font-size:48px;
+		line-height:98px;
+		
+		color:#fff;
+	}
+.withoutbg .fancybox-skin{
+	padding:54px !important ;
+background:none;
+box-shadow:0px !important ;
+	box-shadow:0px 0px 0px rgba(0, 0, 0, 0.00) !important ;
+		-webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00) !important ;
+	   -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00) !important ;
+	        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00) !important ;
+}
+
+
+
+.emailadmin{
+	height:50px;
+	line-height:50px;
+	width:300px;
+	margin:25px auto;
+	display:block;
+}
+
+.doing{
+	text-align:center;
+	color:#000;
+	text-transform:uppercase;
+	font-size:24px;
+	line-height:24px;
+	font-weight:100px;
+	padding:20px;
+	display:none;
+}
+.fadein{
+	display:none;
+}
+
+.clear{
+clear:both;
+display:block;
+}
+
+button{
+	outline:none;
+	border:0px none;
+}
+.newsender:hover{
+	background:#556e5b;
+}
+.operation .fa-check-circle, .operation .fa-exclamation{
+	display:none;
+}
+.header_wrap{
+		padding: 0 50px;
+}
+.header{
+	z-index:100;
+	font-size:24px;
+text-transform:uppercase;
+	font-family: "SourceSansProBold";
+	line-height:106px;
+	
+	width:100%;
+	height:106px;
+	background:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+		-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.header a{
+	text-transform:uppercase;
+	font-family: "SourceSansProBold";
+	color:#9abd67;
+	text-decoration:none;
+	outline:none;
+	float:right;
+	font-size:18px;
+}
+.header a:hover{
+
+color:#008aff;
+
+}
